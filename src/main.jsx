@@ -129,13 +129,17 @@ function Hero() {
     <motion.div style={{ y }} className="orb orb-1" />
     <motion.div style={{ y: useTransform(scrollY, [0, 600], [0, -70]) }} className="orb orb-2" />
     <div className="hero-content">
-      <motion.div initial={{opacity:0, y:22}} animate={{opacity:1, y:0}} transition={{duration:.7}} className="badge"><Rocket size={16}/> Portfolio 3D · Développeur Full-Stack</motion.div>
+      <motion.div initial={{opacity:0, y:22}} animate={{opacity:1, y:0}} transition={{duration:.7}} className="badge"><Rocket size={16}/>· Développeur Full-Stack</motion.div>
       <motion.h1 initial={{opacity:0, y:34}} animate={{opacity:1, y:0}} transition={{duration:.8, delay:.1}}>Abderrahmane <span>Mejdoubi</span></motion.h1>
       <motion.p initial={{opacity:0, y:30}} animate={{opacity:1, y:0}} transition={{duration:.8, delay:.2}} className="subtitle">Développeur Web & Logiciel — Recherche d’alternance</motion.p>
-      <motion.p initial={{opacity:0, y:28}} animate={{opacity:1, y:0}} transition={{duration:.8, delay:.3}} className="intro">Étudiant en Informatique Appliquée, je conçois des applications web et desktop modernes : interfaces propres, logique métier, bases de données et déploiement cloud.</motion.p>
+      <motion.p initial={{opacity:0, y:28}} animate={{opacity:1, y:0}} transition={{duration:.8, delay:.3}} className="intro">Étudiant admis à l’EPISEN en systèmes d’information et actuellement en licence informatique appliquée, spécialité développement informatique. Titulaire d’un DUT en développement des applications informatiques, j’ai acquis une solide expérience à travers plusieurs projets en développement web et logiciel, notamment des applications de gestion et des plateformes complètes.
+
+Passionné par les technologies, rigoureux et orienté solution, je conçois des applications modernes intégrant interfaces intuitives, logique métier, bases de données et déploiement cloud.
+
+Je recherche une alternance en développement informatique à partir de septembre 2026 afin de renforcer mes compétences et contribuer à des projets innovants.</motion.p>
       <motion.div initial={{opacity:0, y:20}} animate={{opacity:1, y:0}} transition={{duration:.8, delay:.4}} className="actions">
         <a className="btn primary" href="#projets"><Globe2 size={18}/> Voir mes projets</a>
-        <a className="btn ghost" href={profile.cvPath} download><Download size={18}/> Télécharger CV</a>
+        <a className="btn ghost" href="/cv.pdf" download><Download size={18}/> Télécharger CV</a>
         <a className="btn ghost" href="#contact"><Mail size={18}/> Contact</a>
       </motion.div>
     </div>
