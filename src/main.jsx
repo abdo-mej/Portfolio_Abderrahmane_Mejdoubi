@@ -139,7 +139,7 @@ Passionné par les technologies, rigoureux et orienté solution, je conçois des
 Je recherche une alternance en développement informatique à partir de septembre 2026 afin de renforcer mes compétences et contribuer à des projets innovants.</motion.p>
       <motion.div initial={{opacity:0, y:20}} animate={{opacity:1, y:0}} transition={{duration:.8, delay:.4}} className="actions">
         <a className="btn primary" href="#projets"><Globe2 size={18}/> Voir mes projets</a>
-        <a className="btn ghost" href="/cv.pdf" download><Download size={18}/> Télécharger CV</a>
+        <a className="btn ghost" href="/MEJDOUBI_Abderrahmane_cv.pdf" download><Download size={18}/> Télécharger CV</a>
         <a className="btn ghost" href="#contact"><Mail size={18}/> Contact</a>
       </motion.div>
     </div>
@@ -181,7 +181,7 @@ function App() {
       <div className="projects-grid">{projects.map((p, i) => <motion.article initial={{opacity:0,y:28}} whileInView={{opacity:1,y:0}} viewport={{once:true}} transition={{delay:i*.08}} whileHover={{ y:-10, rotateX:3, rotateY:-3 }} className="project" key={p.title}><div className="project-top"><p.icon/><span>{p.status}</span></div><small>{p.type}</small><h3>{p.title}</h3><p>{p.description}</p><div className="stack">{p.stack.map(x => <span key={x}>{x}</span>)}</div><a className="project-link" href={p.live} target={p.live.startsWith('http') ? '_blank' : '_self'}>{p.live.startsWith('http') ? 'Voir l’application' : 'Me demander une démo'} <ExternalLink size={16}/></a></motion.article>)}</div>
     </Section>
     <Section id="cv" kicker="CV" title="CV et documents">
-      <div className="cv-card"><div><h3>CV.pdf</h3></div><a className="btn primary" href="/cv.pdf" download> Télécharger</a></div>
+      <div className="cv-card"><div><h3>CV.pdf</h3></div><a className="btn primary" href="/MEJDOUBI_Abderrahmane_cv.pdf" download> Télécharger</a></div>
     </Section>
     <Section id="contact" kicker="Contact" title="Disponible pour alternance, stage ou collaboration">
       <div className="contact-card">

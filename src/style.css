@@ -82,3 +82,34 @@ canvas {
 .profile-card {
   max-width: 620px !important;
 }
+.hero {
+  min-height: 100vh !important;
+  padding: 150px max(5vw, 28px) 90px !important;
+  align-items: center !important;
+}
+
+.hero h1 {
+  font-size: clamp(3.2rem, 6vw, 5.6rem) !important;
+  line-height: 0.95 !important;
+  margin-bottom: 20px !important;
+}
+
+.subtitle {
+  font-size: clamp(1.2rem, 2vw, 1.8rem) !important;
+  line-height: 1.25 !important;
+}
+
+.intro {
+  max-width: 760px !important;
+  font-size: 1rem !important;
+  line-height: 1.7 !important;
+  color: #a9b8d0 !important;
+}
+
+.hero-card {
+  max-width: 620px !important;
+}
+
+.navbar {
+  top: 24px !important;
+}
