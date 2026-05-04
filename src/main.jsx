@@ -181,7 +181,7 @@ function App() {
       <div className="projects-grid">{projects.map((p, i) => <motion.article initial={{opacity:0,y:28}} whileInView={{opacity:1,y:0}} viewport={{once:true}} transition={{delay:i*.08}} whileHover={{ y:-10, rotateX:3, rotateY:-3 }} className="project" key={p.title}><div className="project-top"><p.icon/><span>{p.status}</span></div><small>{p.type}</small><h3>{p.title}</h3><p>{p.description}</p><div className="stack">{p.stack.map(x => <span key={x}>{x}</span>)}</div><a className="project-link" href={p.live} target={p.live.startsWith('http') ? '_blank' : '_self'}>{p.live.startsWith('http') ? 'Voir l’application' : 'Me demander une démo'} <ExternalLink size={16}/></a></motion.article>)}</div>
     </Section>
     <Section id="cv" kicker="CV" title="CV et documents">
-      <div className="cv-card"><div><h3>Abderrahmane_Mejdoubi_CV.pdf</h3><p>Place ton fichier dans <code>public/CV/Abderrahmane_Mejdoubi_CV.pdf</code> pour activer le bouton.</p></div><a className="btn primary" href="/cv.pdf" download><Download size={18}/> Télécharger</a></div>
+      <div className="cv-card"><div><h3>CV.pdf</h3></div><a className="btn primary" href="/cv.pdf" download> Télécharger</a></div>
     </Section>
     <Section id="contact" kicker="Contact" title="Disponible pour alternance, stage ou collaboration">
       <div className="contact-card">
