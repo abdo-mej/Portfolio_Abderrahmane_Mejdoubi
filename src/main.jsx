@@ -181,7 +181,7 @@ function App() {
       <div className="projects-grid">{projects.map((p, i) => <motion.article initial={{opacity:0,y:28}} whileInView={{opacity:1,y:0}} viewport={{once:true}} transition={{delay:i*.08}} whileHover={{ y:-10, rotateX:3, rotateY:-3 }} className="project" key={p.title}><div className="project-top"><p.icon/><span>{p.status}</span></div><small>{p.type}</small><h3>{p.title}</h3><p>{p.description}</p><div className="stack">{p.stack.map(x => <span key={x}>{x}</span>)}</div><a className="project-link" href={p.live} target={p.live.startsWith('http') ? '_blank' : '_self'}>{p.live.startsWith('http') ? 'Voir l’application' : 'Me demander une démo'} <ExternalLink size={16}/></a></motion.article>)}</div>
     </Section>
     <Section id="cv" kicker="CV" title="CV et documents">
-      <div className="cv-card"><div><h3>CV.pdf</h3></div><a className="btn primary" href="/MEJDOUBI_Abderrahmane_cv.pdf" download> Télécharger</a></div>
+      <div className="cv-card"><div><h3>Curriculum Vitae - Abderrahmane Mejdoubi</h3></div><a className="btn primary" href="/MEJDOUBI_Abderrahmane_cv.pdf" download> Télécharger</a></div>
     </Section>
     <Section id="contact" kicker="Contact" title="Disponible pour alternance, stage ou collaboration">
       <div className="contact-card">
@@ -191,7 +191,7 @@ function App() {
         <a href={profile.github} target="_blank"><Code2/> GitHub</a>
       </div>
     </Section>
-    <footer>© 2026 Abderrahmane Mejdoubi — Portfolio 3D professionnel</footer>
+    <footer>© 2026 Abderrahmane Mejdoubi — Portfolio</footer>
   </>;
 }
 
