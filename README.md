@@ -1,28 +1,28 @@
-# Portfolio Abderrahmane Mejdoubi — 3D PRO
+# 🚀 Portfolio Abderrahmane Mejdoubi — Développeur Full-Stack
 
-Portfolio moderne en React + Vite + Framer Motion.
+🌐 **Voir le portfolio en ligne :**  
+👉 https://portfolio-abderrahmane-mejdoubi.vercel.app/
 
-## Lancement local
-```bash
-npm install
-npm run dev
-```
+---
 
-## Build
-```bash
-npm run build
-```
+## 👨‍💻 À propos
 
-## Déploiement Vercel
-- Framework: Vite
-- Build Command: `npm run build`
-- Output Directory: `dist`
+Étudiant admis à l’EPISEN en systèmes d’information et actuellement en licence informatique appliquée, spécialité développement informatique.  
+Titulaire d’un DUT en développement des applications informatiques, j’ai acquis une solide expérience à travers plusieurs projets en développement web et logiciel, notamment des applications de gestion complètes.
 
-## CV
-Place ton CV ici :
-`public/CV/Abderrahmane_Mejdoubi_CV.pdf`
+Passionné par les technologies, rigoureux et orienté solution, je conçois des applications modernes intégrant interfaces intuitives, logique métier, bases de données et déploiement cloud.
 
-## Projets intégrés
-- SmartClinic: https://smart-clinic-web-app.vercel.app/
-- LahlalCar: https://lahlalcar.infinityfree.me
-- Paie Multi-Sociétés: démo/download sur demande
+🎯 **Objectif :** Recherche d’une alternance en développement à partir de septembre 2026.
+
+---
+
+## 🛠️ Technologies utilisées
+
+- ⚛️ React / Vite
+- 🎨 CSS moderne / UI avancée
+- 🎬 Framer Motion (animations)
+- 🧠 JavaScript (ES6+)
+- 🌐 Vercel (déploiement)
+- 🧩 Lucide React (icons)
+
+---
