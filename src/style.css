@@ -9,3 +9,38 @@ canvas, .particles, .background-animation {
   z-index: 0 !important;
   position: absolute;
 }
+.hero {
+  min-height: auto !important;
+  padding: 120px 0 70px !important;
+  overflow: visible !important;
+}
+
+.hero-grid {
+  align-items: center !important;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 5;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+.hero-description {
+  max-height: none !important;
+  overflow: visible !important;
+  font-size: 1.05rem !important;
+  line-height: 1.8 !important;
+}
+
+.hero-card,
+.profile-card {
+  position: relative;
+  z-index: 4;
+}
+
+.particles,
+#tsparticles,
+canvas {
+  pointer-events: none !important;
+}
